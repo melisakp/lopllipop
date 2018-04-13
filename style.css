@@ -1,0 +1,97 @@
+body {
+    padding-top: 70px;
+    
+    background-size: 100% 100%;
+}
+
+.jumbotron {
+    color: #2c3e50;
+    background: #ecf0f1;
+    text-align: center;
+    height: 560px;
+    padding-top: 180px;
+}
+
+.navbar-inverse {
+    background: #2C4350;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    height: 85px;
+    font-family: 'Berkshire Swash';
+}
+
+.thumbnail img {
+width: 375px;
+    border: 1px solid white;
+    margin: 0px;
+    height: 175px;
+    
+}
+
+.set-color{
+    color: #04F704;
+}
+
+.pink{
+    color:fuchsia;
+}
+
+h1{
+    text-align: center;
+}
+
+.add-padding{
+    padding-top: 70px;
+}
+
+.img-size {
+    padding: 25px 50px 0px 50px;
+    
+}
+.pop-info{
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+}
+
+.product-name{
+    padding-bottom: 0px;
+    color: orange;
+}
+
+.red{
+    color: red;
+}
+
+.col-purple{
+    color: purple;
+}
+
+.blue{
+    color: brown;
+}
+
+.section-margin-20{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.center{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.enlarge-text{
+font-size: 50px;
+}
+.green{
+    color: #04F704;
+}
+
+.fuchsia{
+    color: fuchsia;
+}
