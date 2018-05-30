@@ -1,15 +1,44 @@
 body {
     padding-top: 70px;
-    
+    background-color:blue;
     background-size: 100% 100%;
+    
 }
 
-.jumbotron {
-    color: #2c3e50;
-    background: #ecf0f1;
-    text-align: center;
-    height: 560px;
-    padding-top: 180px;
+.container-fluid{
+    background-color: pink; 
+    width: 100%;
+}
+
+.slider {
+overflow: hidden;
+height: 650px;
+width: 1000px;
+padding: 0;
+margin: auto;
+}
+
+.slider .slides{
+    display: block;
+    margin: 0;
+    padding:  0;
+    list-style-type:none;
+}
+
+.slider .slide img{
+width:1000px;
+height:650px;
+float: left;
+padding: 0;
+margin-left: 0;
+}
+
+.bx-wrapper .bx-controls-direction a {
+        z-index: 0;
+    }
+
+.space{
+    padding-top: 26px;
 }
 
 .navbar-inverse {
@@ -21,7 +50,7 @@ body {
 }
 
 .navbar-inverse .navbar-brand {
-    height: 85px;
+    height: 26px;
     font-family: 'Berkshire Swash';
 }
 
