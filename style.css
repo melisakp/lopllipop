@@ -1,21 +1,25 @@
 body {
     padding-top: 70px;
-    background-color:blue;
     background-size: 100% 100%;
     
 }
 
 .container-fluid{
-    background-color: pink; 
     width: 100%;
+    margin-top: -19px;
+}
+
+.container-fluid .row .col-md-12 {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .slider {
-overflow: hidden;
-height: 650px;
-width: 1000px;
-padding: 0;
-margin: auto;
+    overflow: hidden;
+    height: 650px;
+    padding: 0;
+    margin: auto;
+    padding-top: -63px;
 }
 
 .slider .slides{
@@ -26,16 +30,19 @@ margin: auto;
 }
 
 .slider .slide img{
-width:1000px;
-height:650px;
-float: left;
-padding: 0;
-margin-left: 0;
+    width:100%;
+    height:650px;
+    float: left;
+    padding: 0;
+    margin-left: 0;
 }
 
 .bx-wrapper .bx-controls-direction a {
         z-index: 0;
     }
+.bx-wrapper{
+border:0px;
+}
 
 .space{
     padding-top: 26px;
@@ -43,6 +50,17 @@ margin-left: 0;
 
 .navbar-inverse {
     background: #2C4350;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+    margin-top: 7px;
+}
+
+.navbar-right {
+    float: right;
+    margin-right: -15px;
+    margin-top: -1px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -52,6 +70,7 @@ margin-left: 0;
 .navbar-inverse .navbar-brand {
     height: 26px;
     font-family: 'Berkshire Swash';
+    margin-top: -3px;
 }
 
 .thumbnail img {
@@ -60,14 +79,6 @@ width: 375px;
     margin: 0px;
     height: 175px;
     
-}
-
-.set-color{
-    color: #04F704;
-}
-
-.pink{
-    color:fuchsia;
 }
 
 h1{
@@ -105,22 +116,73 @@ h1{
 }
 
 .section-margin-20{
-    margin-top:20px;
-    margin-bottom:20px;
+    margin-top: 33px;
+    margin-bottom: 20px;
+    margin-right: 71px;
+    margin-left: 56px;
 }
 
 .center{
-    margin-left:auto;
-    margin-right:auto;
+    margin-right:92px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
-.enlarge-text{
-font-size: 50px;
-}
 .green{
     color: #04F704;
+    font-size: 48px;
 }
 
 .fuchsia{
     color: fuchsia;
+    font-size: 48px;
 }
+
+.margin-left{
+    margin-top: 19px;
+}
+
+.enlarge-text{
+    font-size: 50px;
+    margin-top: -25px;
+    }
+
+
+.foot{
+        color:white;
+        margin-top: 20px;text-align: center;
+}
+
+
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color:#2C4350;
+} 
+
+@media screen and (max-width:1080px){
+    body{
+        width: 100%;
+    }
+    .container-fluid{
+        width:100%;
+        margin-top: -19px;
+    }
+    .container{
+        width:100%;
+    }
+
+    .thumbnail img{
+        width: 100%;
+    }
+    .bx-wrapper{
+        width:100%;
+        padding-top: -19px;
+    }
+
+}
+
+
+
